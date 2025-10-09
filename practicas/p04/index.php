@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Práctica 4 - Variables PHP</title>
@@ -8,16 +8,8 @@
     <!-- Ejercicio 1 -->
     <h2>Ejercicio 1</h2>
     <p>Determina cuál de las siguientes variables son válidas y explica por qué:</p>
-    <p>$_myvar,  $_7var,  myvar,  $myvar,  $var7,  $_element1, $house*5</p>
+    <p>$_myvar, $_7var, myvar, $myvar, $var7, $_element1, $house*5</p>
     <?php
-        $_myvar;
-        $_7var;
-        //myvar;       // Inválida
-        $myvar;
-        $var7;
-        $_element1;
-        //$house*5;     // Invalida
-        
         echo '<h4>Respuesta:</h4>';   
         echo '<ul>';
         echo '<li>$_myvar es válida porque inicia con guión bajo.</li>';
@@ -59,12 +51,14 @@
     <!-- Ejercicio 3 -->
     <h2>Ejercicio 3</h2>
     <?php
+        // Suprimir warnings para este ejercicio
         $a = "PHP5";
+        $z = array(); // Inicializar el array
         $z[] = &$a;
         $b = "5a version de PHP";
-        $c = $b * 10;
+        $c = @($b * 10); // Suprimir warning de conversión
         $a .= $b;
-        $b *= $c;
+        $b = @($b * $c); // Suprimir warning de conversión
         $z[0] = "MySQL";
 
         echo "<pre>";
@@ -119,8 +113,8 @@
         echo "</pre>";
 
         echo "<p>Transformar booleanos a valores legibles:</p>";
-        echo "c = " . ($c ? "true" : "false") . "<br>";
-        echo "e = " . ($e ? "true" : "false") . "<br>";
+        echo "<p>c = " . ($c ? "true" : "false") . "<br />";
+        echo "e = " . ($e ? "true" : "false") . "</p>";
     ?>
 
     <!-- Ejercicio 7 -->
@@ -132,5 +126,11 @@
         echo "<li>Idioma del navegador (cliente): " . $_SERVER['HTTP_ACCEPT_LANGUAGE'] . "</li>";
         echo "</ul>";
     ?>
+
+    <!-- Ícono de validación XHTML -->
+    <p>
+        <a href="https://validator.w3.org/check?uri=referer"><img
+          src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+    </p>
 </body>
 </html>
