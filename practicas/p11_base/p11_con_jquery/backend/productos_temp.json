@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nombre": "Laptop HP Pavilion",
+        "marca": "HP",
+        "modelo": "Pavilion 15",
+        "precio": 15000,
+        "detalles": "Laptop con 8GB RAM, 512GB SSD",
+        "unidades": 10,
+        "imagen": "img\/laptop-hp.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Mouse Inal\u00e1mbrico Logitech",
+        "marca": "Logitech",
+        "modelo": "M185",
+        "precio": 250.5,
+        "detalles": "Mouse ergon\u00f3mico inal\u00e1mbrico",
+        "unidades": 25,
+        "imagen": "img\/mouse-logitech.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Teclado Mec\u00e1nico Redragon",
+        "marca": "Redragon",
+        "modelo": "Kumara",
+        "precio": 800,
+        "detalles": "Teclado mec\u00e1nico RGB",
+        "unidades": 15,
+        "imagen": "img\/teclado-redragon.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Tablet Samsung Galaxy",
+        "marca": "Samsung",
+        "modelo": "Tab A8",
+        "precio": 4500,
+        "detalles": "Tablet 10.5 pulgadas, 64GB, Android",
+        "unidades": 8,
+        "imagen": "img\/tablet-samsung.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Xiaomi Telefono",
+        "marca": "Xiaomi",
+        "modelo": "Redmi Note 12",
+        "precio": 3500,
+        "detalles": "Smartphone 128GB, 6GB RAM, 5G",
+        "unidades": 12,
+        "imagen": "img\/xiaomi-phone.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Monitor LG",
+        "marca": "LG",
+        "modelo": "24MK600",
+        "precio": 2800,
+        "detalles": "Monitor 24 pulgadas Full HD",
+        "unidades": 6,
+        "imagen": "img\/monitor-lg.jpg"
+    }
+]
