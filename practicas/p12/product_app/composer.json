@@ -1,0 +1,17 @@
+{
+    "name": "tu-usuario/product-app",
+    "description": "Sistema de gestión de productos con PSR-4",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "ProductApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tu Nombre",
+            "email": "tu@email.com"
+        }
+    ],
+    "require": {}
+}
