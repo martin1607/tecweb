@@ -1,0 +1,60 @@
+* [33m82dd697[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mdev[m[33m)[m Práctica 12 completa: PSR-4, Composer, CRUD funcional, autoload, namespaces
+* [33m849b656[m P11 con jQuery - Programación Orientada a Objetos del lado del Servidor
+* [33m889da16[m Practica 11 - Complemento: Formulario con campos individuales, validaciones jQuery y funcionalidades completas
+* [33m917218c[m feat: agregar práctica 11 - Comunicación asíncrona con jQuery
+* [33m29c1346[m feat: agregar práctica 11 - Comunicación asíncrona con jQuery
+* [33m3bcac2e[m feat: agregar práctica 10 - AJAX y validaciones
+*   [33m4298f51[m Merge branch 'main' of github.com:martin1607/tecweb into dev
+[32m|[m[33m\[m  
+[32m|[m *   [33m139826a[m :M:wq erge branch 'dev'
+[32m|[m [34m|[m[35m\[m  
+[32m|[m * [35m\[m   [33m03b207d[m Merge branch 'dev'
+[32m|[m [36m|[m[1;31m\[m [35m\[m  
+[32m|[m * [1;31m\[m [35m\[m   [33m5dfe7bd[m Merge branch 'dev' of github.com:martin1607/tecweb
+[32m|[m [1;32m|[m[1;33m\[m [1;31m\[m [35m\[m  
+[32m|[m * [1;33m\[m [1;31m\[m [35m\[m   [33mba26027[m Merge branch 'dev' of github.com:martin1607/tecweb
+[32m|[m [1;34m|[m[1;35m\[m [1;33m\[m [1;31m\[m [35m\[m  
+[32m|[m * [1;35m\[m [1;33m\[m [1;31m\[m [35m\[m   [33me6417c2[m Merge branch 'dev'
+[32m|[m [1;36m|[m[31m\[m [1;35m\[m [1;33m\[m [1;31m\[m [35m\[m  
+[32m|[m * [31m\[m [1;35m\[m [1;33m\[m [1;31m\[m [35m\[m   [33md375b5a[m Merge branch 'dev'
+[32m|[m [32m|[m[33m\[m [31m\[m [1;35m\[m [1;33m\[m [1;31m\[m [35m\[m  
+[32m|[m * [33m|[m [31m|[m [1;35m|[m [1;33m|[m [1;31m|[m [35m|[m [33m353ac34[m Actualizar index.html de P2 antes de pasar a main
+[32m|[m * [33m|[m [31m|[m [1;35m|[m [1;33m|[m [1;31m|[m [35m|[m   [33m8698857[m Merge pull request #2 from martin1607/dev
+[32m|[m [34m|[m[35m\[m [33m\[m [31m\[m [1;35m\[m [1;33m\[m [1;31m\[m [35m\[m  
+* [34m|[m [35m|[m [33m|[m [31m|[m [1;35m|[m [1;33m|[m [1;31m|[m [35m|[m [33m506d121[m Agregue imagen extra
+* [34m|[m [35m|[m [33m|[m [31m|[m [1;35m|[m [1;33m|[m [1;31m|[m [35m|[m [33m16305ca[m feat: agregar práctica 9 - Validación JavaScript y actualización BD
+* [34m|[m [35m|[m [33m|[m [31m|[m [1;35m|[m [1;33m|[m [1;31m|[m [35m|[m [33m9c75502[m feat: agregar prácticas 4 y 5 modificadas
+* [34m|[m [35m|[m [33m|[m [31m|[m [1;35m|[m [1;33m|[m [1;31m|[m [35m|[m [33m89a0785[m feat: agregar práctica 8 - Inserción a Base de Datos con PHP
+[35m|[m [34m|[m[35m_[m[35m|[m[35m_[m[33m|[m[35m_[m[31m|[m[35m_[m[1;35m|[m[35m_[m[1;33m|[m[35m_[m[1;31m|[m[35m/[m  
+[35m|[m[35m/[m[34m|[m [35m|[m [33m|[m [31m|[m [1;35m|[m [1;33m|[m [1;31m|[m   
+* [34m|[m [35m|[m [33m|[m [31m|[m [1;35m|[m [1;33m|[m [1;31m|[m [33m0a07cc5[m feat: agregar práctica 7 - Conexión a BD con PHP
+[1;31m|[m [34m|[m[1;31m_[m[35m|[m[1;31m_[m[33m|[m[1;31m_[m[31m|[m[1;31m_[m[1;35m|[m[1;31m_[m[1;33m|[m[1;31m/[m  
+[1;31m|[m[1;31m/[m[34m|[m [35m|[m [33m|[m [31m|[m [1;35m|[m [1;33m|[m   
+* [34m|[m [35m|[m [33m|[m [31m|[m [1;35m|[m [1;33m|[m [33ma39cc50[m P06: agregar/actualizar index.php y funciones (ejercicios 1-6)
+[1;33m|[m [34m|[m[1;33m_[m[35m|[m[1;33m_[m[33m|[m[1;33m_[m[31m|[m[1;33m_[m[1;35m|[m[1;33m/[m  
+[1;33m|[m[1;33m/[m[34m|[m [35m|[m [33m|[m [31m|[m [1;35m|[m   
+* [34m|[m [35m|[m [33m|[m [31m|[m [1;35m|[m [33mf11beb9[m formulario listo
+[1;35m|[m [34m|[m[1;35m_[m[35m|[m[1;35m_[m[33m|[m[1;35m_[m[31m|[m[1;35m/[m  
+[1;35m|[m[1;35m/[m[34m|[m [35m|[m [33m|[m [31m|[m   
+* [34m|[m [35m|[m [33m|[m [31m|[m [33m5895373[m Primera pate formulario
+[31m|[m [34m|[m[31m_[m[35m|[m[31m_[m[33m|[m[31m/[m  
+[31m|[m[31m/[m[34m|[m [35m|[m [33m|[m   
+* [34m|[m [35m|[m [33m|[m [33m126ee7e[m Agregar ejercicios 1 y 2 de P4
+[33m|[m [34m|[m[33m_[m[35m|[m[33m/[m  
+[33m|[m[33m/[m[34m|[m [35m|[m   
+* [34m|[m [35m|[m [33m9ed10c4[m Agregar archivo pagexhtml.html como ejemplo adicional en p03
+* [34m|[m [35m|[m [33ma0c7674[m Agregar archivo codephp2.php como segundo ejemplo de código PHP
+* [34m|[m [35m|[m [33m080174d[m Agregar archivo codephp.php como ejemplo de código PHP
+* [34m|[m [35m|[m [33m3219ab0[m Agregar archivo info.php para visualizar configuración y módulos de PHP
+* [34m|[m [35m|[m [33md1ef772[m Agregar ejemplo de inclusión de archivos con notas en HTML y PHP
+* [34m|[m [35m|[m [33m9b7d5b8[m Agregar archivo info.php para mostrar configuración y módulos de PHP
+* [34m|[m [35m|[m [33mb85db9a[m Agregar archivo fechaservidor.php para mostrar fecha del servidor
+* [34m|[m [35m|[m [33m8c29cca[m Actualizar index.html de P2 antes de pasar a main
+[35m|[m [34m|[m[35m/[m  
+[35m|[m[35m/[m[34m|[m   
+* [34m|[m [33mcd41ad0[m Actualizar imágenes imagen01.png y imagen02.png en estandares/img
+* [34m|[m [33m0678d1f[m Merge branch 'dev' of github.com:martin1607/tecweb into dev
+[36m|[m[34m\[m[34m|[m 
+[36m|[m * [33m4dc6fc8[m Copiar archivos de frontend a backend
+* [1;31m|[m [33m0bf5a52[m Agregar práctica 2: index.html, info.txt e imagen
+[1;31m|[m[1;31m/[m  

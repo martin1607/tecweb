@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Recursos Digitales - Dashboard</title>
+    <!-- BOOTSTRAP 4  -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css">
+  </head>
+  <body>
+
+    <!-- BARRA DE NAVEGACIÓN  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href=".">Recursos Digitales</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto"></ul>
+        <form class="form-inline my-2 my-lg-0" onsubmit="return false;">
+          <input class="form-control mr-sm-2"
+                 name="search" id="search" type="search"
+                 placeholder="Nombre, autor, departamento o empresa"
+                 aria-label="Search">
+          <button class="btn btn-success my-2 my-sm-0" type="button">
+            Buscar
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row p-4">
+        <!-- FORMULARIO -->
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-header">
+              <h5 class="mb-0" id="form-title">Agregar recurso digital</h5>
+            </div>
+            <div class="card-body">
+              <!-- IMPORTANTE: enctype para soportar archivos -->
+              <form id="product-form" enctype="multipart/form-data">
+                <input type="hidden" id="productId">
+
+                <div class="form-group">
+                  <label for="nombre">Nombre del recurso</label>
+                  <input class="form-control" type="text" id="nombre"
+                         placeholder="Ej. Manual de instalación" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="autor">Autor</label>
+                  <input class="form-control" type="text" id="autor"
+                         placeholder="Ej. Juan Pérez" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="departamento">Departamento</label>
+                  <input class="form-control" type="text" id="departamento"
+                         placeholder="Ej. Desarrollo" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="empresa">Empresa / Institución</label>
+                  <input class="form-control" type="text" id="empresa"
+                         placeholder="Ej. Mi Empresa SA de CV" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="fecha_creacion">Fecha de creación</label>
+                  <input class="form-control" type="date" id="fecha_creacion" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="descripcion">Descripción</label>
+                  <textarea class="form-control" id="descripcion" cols="30" rows="4"
+                            placeholder="Descripción breve del recurso"></textarea>
+                </div>
+
+                <div class="form-group">
+                  <label for="archivo">Archivo</label>
+                  <input class="form-control-file" type="file" id="archivo" required>
+                  <small class="form-text text-muted">
+                    Extensiones permitidas: pdf, zip, rar, json, xml, jar, exe, doc, docx, xls, xlsx, ppt, pptx
+                  </small>
+                </div>
+
+                <button class="btn btn-primary btn-block text-center" type="submit">
+                  Guardar recurso
+                </button>
+
+                <button class="btn btn-secondary btn-block text-center mt-2"
+                        type="button" id="btn-clear">
+                  Limpiar formulario
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- TABLA  -->
+        <div class="col-md-7">
+          <div class="card my-4" id="product-result">
+            <div class="card-header">
+              <h5 class="mb-0">Resultado</h5>
+            </div>
+            <div class="card-body">
+              <!-- RESULTADO -->
+              <ul id="container" style="margin-bottom: 0;"></ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h5 class="mb-0">Lista de recursos digitales</h5>
+            </div>
+            <div class="card-body p-0">
+              <table class="table table-bordered table-sm mb-0">
+                <thead class="thead-light">
+                  <tr>
+                    <th style="width: 5%;">Id</th>
+                    <th style="width: 20%;">Nombre</th>
+                    <th style="width: 35%;">Metadatos</th>
+                    <th style="width: 15%;">Archivo</th>
+                    <th style="width: 15%;">Acciones</th>
+                  </tr>
+                </thead>
+                <tbody id="products"></tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <!-- Lógica del Frontend -->
+    <script src="app.js"></script>
+  </body>
+</html>
